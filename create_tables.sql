@@ -1,3 +1,7 @@
+--hacer coneccion con mySQL local el cual esta por emdio de xampp
+--se crea unaDB llamada data_science en donde se vana crear las
+--tablas y se van hacer la pruebas.
+--USE data_science;
 CREATE TABLE tbl0 (
     K0  CHAR(1),
     c01 INT,
