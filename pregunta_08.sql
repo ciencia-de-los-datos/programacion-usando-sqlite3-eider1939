@@ -42,4 +42,4 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --
 --USE data_science;
-SELECT YEAR(c23) as year, AVG(c21)  from tbl2 GROUP BY year;
+SELECT strftime('%Y', c23) as [YEAR], AVG(c21)  from tbl2 GROUP BY [YEAR];
